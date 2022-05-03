@@ -1,7 +1,7 @@
 {
   "name": "Burger Website",
   "short_name": "Burger Website",
-  "description": "Shopper",
+  "description": "Website for Burger",
   "orientation": "portrait",
 
   "start_url": "https://rahulnail.github.io/Burger4/",
