@@ -2,7 +2,7 @@ let searchBtn = document.querySelector('#search-btn');
 let searchForm = document.querySelector('.header .search-form');
 
 if("serviceWorker" in navigator){
-   navigator.serviceWorker.register("https://rahulnail.github.io/Burger/sw.js")
+   navigator.serviceWorker.register("https://rahulnail.github.io/Burger4/sw.js")
    .then(()=>{
       console.log("sw registered")
    })
