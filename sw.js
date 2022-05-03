@@ -3,7 +3,6 @@ self.addEventListener('install' , (event)=>{
   event.waitUntil(
   caches.open("static")
   .then((Cache)=>{
-    console.log("Hide"),
       Cache.addAll([
         "https://rahulnail.github.io/Burger4/",
         "https://rahulnail.github.io/Burger4/css/style.css",
@@ -13,7 +12,6 @@ self.addEventListener('install' , (event)=>{
         "https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css",
 
       ]).catch((error)=>{
-          console.log("Seek")
           console.log(error)
       })
   })
