@@ -12,6 +12,7 @@ self.addEventListener('install' , (event)=>{
         "https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css",
 
       ]).catch((error)=>{
+          console.log("Seek")
           console.log(error)
       })
   })
