@@ -1,19 +1,20 @@
 {
-    "name": "Burger Website",
-    "short_name": "Burger Website",
-    "description": "Progressive Web App feature added in our application",
+  "name": "Burger Website",
+  "short_name": "Burger Website",
+  "description": "Shopper",
+  "orientation": "portrait",
+
+  "start_url": "https://rahulnail.github.io/Burger4/",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#fafafa",
+  "gcm_sender_id": "<YOUR PROJECT NO>",
     "icons": [
-        {
-            "src":"assets/logoicon-192x192.png",
-            "sizes":"512x512",
-            "type":"image/png",
-            "purpose":"any maskable"
-        },
-    ],
-    "id":"https://rahulnail.github.io/Burger4/",
-    "start_url": "https://rahulnail.github.io/Burger4/",
-    "display": "fullscreen",
-    "theme_color": "#00FF00",
-    "background_color": "#FFFFFF",
-    "orientation":"portrait"
-  }
+    {
+      "src": "assets/logoicon-192x192.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
