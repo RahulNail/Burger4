@@ -4,17 +4,11 @@
     "description": "Progressive Web App feature added in our application",
     "icons": [
         {
-            "src":"./images/burger_app_logo.png",
+            "src":"assets/logoicon-192x192.png",
             "sizes":"512x512",
             "type":"image/png",
             "purpose":"any maskable"
         },
-        {
-            "src":"./images/sec_img.png",
-            "sizes":"96x96",
-            "type":"image/png",
-            "purpose":"any maskable"
-        }
     ],
     "id":"https://rahulnail.github.io/Burger4/",
     "start_url": "https://rahulnail.github.io/Burger4/",
